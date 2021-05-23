@@ -8,3 +8,9 @@ target/
 
 # fronted ignored files
 node_modules
+
+#IDE
+.vscode
+.idea
+*.iml
+.DS_Store
