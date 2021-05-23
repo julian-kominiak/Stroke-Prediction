@@ -1,0 +1,10 @@
+# logic ignored files
+__pycache__/
+
+# webapp ignored files
+target/
+.mvn/
+!**/maven-wrapper.jar
+
+# fronted ignored files
+
