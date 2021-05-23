@@ -1,12 +1,12 @@
 package com.sa.web.dto;
 
-public class StrokePreditctionDto {
+public class StrokePredictionDto {
     private double probability;
 
-    public StrokePreditctionDto() {
+    public StrokePredictionDto() {
     }
 
-    public StrokePreditctionDto(double probability) {
+    public StrokePredictionDto(double probability) {
         this.probability = probability;
     }
 
@@ -16,5 +16,12 @@ public class StrokePreditctionDto {
 
     public void setProbability(double probability) {
         this.probability = probability;
+    }
+
+    @Override
+    public String toString() {
+        return "StrokePredictionDto{" +
+                "probability=" + probability +
+                '}';
     }
 }

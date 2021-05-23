@@ -14,9 +14,8 @@ def analyse_data():
     KNNPrediction = KNN.clustering(sample, trainset, 3)
     StrokePrediction = (float(0.94) * float(BayesPrediction) + float(0.93) * float(KNNPrediction)) / 2
     probability = round(StrokePrediction * 100, 1)
-
     return jsonify(
-        probablity=probability
+        probability=probability
     )
 
 if __name__ == '__main__':
