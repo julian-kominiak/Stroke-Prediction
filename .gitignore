@@ -7,4 +7,4 @@ target/
 !**/maven-wrapper.jar
 
 # fronted ignored files
-
+node_modules
